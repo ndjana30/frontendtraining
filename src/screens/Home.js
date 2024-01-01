@@ -12,7 +12,7 @@ export default function Home()
         <div class="navigation">
             <ul class="items">
                 <li><Link to="/"><a>Home</a></Link></li>
-                <li><a href="#">About</a></li>
+                <li><Link to="/projects"><a>Projects</a></Link></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Pricing</a></li>
             </ul>
