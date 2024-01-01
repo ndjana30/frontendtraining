@@ -220,3 +220,16 @@ video{
   margin-top: 30px;
  
 }
+
+@media (max-width: 600px)
+{
+  body{
+    display: block;
+  }
+  .header,.navigation{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
